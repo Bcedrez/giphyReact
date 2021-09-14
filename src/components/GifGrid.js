@@ -10,7 +10,7 @@ export const GifGrid = ({categoria})=>{
 
     return (
         <>
-        <h3>{categoria}</h3>
+        <h3 className="animate__animated animate__rotateInDownLeft">{categoria}</h3>
 
         {loading && <p>loading...</p>}
         
