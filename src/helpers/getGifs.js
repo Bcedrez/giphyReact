@@ -1,6 +1,6 @@
 
 
-export const getGift = async (categoria)=>{
+const getGift = async (categoria)=>{
 
         
 
@@ -20,3 +20,5 @@ export const getGift = async (categoria)=>{
 
     return gifs;
 }
+
+export default getGift

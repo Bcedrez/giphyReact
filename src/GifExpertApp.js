@@ -6,9 +6,9 @@ import { GifGrid } from "./components/GifGrid";
 
 
 
-const GifExpertApp = ()=>{
+const GifExpertApp = ({defaultCategories = []})=>{
 
-    const [categorias, setCategorias] = useState(['Samurai X'])
+    const [categorias, setCategorias] = useState(defaultCategories)
 
     return(
         <>
